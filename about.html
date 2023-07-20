@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>About Us</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="video-container">
+      <video
+        class="fullscreen"
+        src="flight.mp4"
+        playsinline
+        autoplay
+        muted
+        loop
+      ></video>
+    </section>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark navibar">
+      <!-- <div class="container"> -->
+      <a class="navbar-brand" href="home.html">Airline Ticket Booking System</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="flights.html">Flights</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+      <!-- </div> -->
+    </nav>
+
+    <div class="container" style="display: flex; justify-content: center">
+      <div
+        style="
+          z-index: 0;
+          position: absolute;
+          background-color: #ffffff45;
+          border-radius: 10px;
+          padding: 20px;
+          margin: 50px 50px;
+        "
+      >
+        <h1>About Us</h1>
+        <hr />
+        <p>
+          At Airline Ticket Booking System, we believe that traveling should be
+          hassle-free and enjoyable. That's why we've created a simple and
+          easy-to-use online platform that allows you to book flights and manage
+          your reservations from anywhere in the world.
+        </p>
+        <p>
+          Our team of experienced professionals is dedicated to providing you
+          with the best possible travel experience. We work with major airlines
+          and travel partners to offer you a wide range of flight options and
+          competitive prices.
+        </p>
+        <p>
+          Whether you're planning a business trip, a family vacation, or a
+          romantic getaway, we've got you covered. So sit back, relax, and let
+          us take care of the rest.
+        </p>
+      </div>
+    </div>
+
+    <div style="height: 100px"></div>
+
+    <footer
+      class="bg-dark text-white py-2"
+      style="
+        position: absolute;
+        z-index: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 0 50px;
+      "
+    >
+      <!-- <div class="container"> -->
+      <div class="row">
+        <div class="col-md-6" style="display: flex; justify-content: center">
+          <p>&copy; 2023 Airline Ticket Booking System</p>
+        </div>
+        <div class="col-md-6">
+          <ul
+            class="list-unstyled text-right"
+            style="display: flex; justify-content: center"
+          >
+            <li style="margin: 0 10px"><a href="home.html">Home</a></li>
+            <li style="margin: 0 10px"><a href="flights.html">Flights</a></li>
+            <li style="margin: 0 10px"><a href="about.html">About</a></li>
+            <li style="margin: 0 10px"><a href="login.html">Login</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- </div> -->
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
